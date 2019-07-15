@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: Deploying
-          command: eb deploy $CIRCLE_BRANCH-my-application
+          command: eb deploy Samplelogin-env
 
       # Download and cache dependencies
       - restore_cache:
