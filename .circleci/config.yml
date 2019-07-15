@@ -18,6 +18,9 @@ jobs:
 
     steps:
       - checkout
+      - run:
+          name: Deploying
+          command: eb deploy $CIRCLE_BRANCH-my-application
 
       # Download and cache dependencies
       - restore_cache:
