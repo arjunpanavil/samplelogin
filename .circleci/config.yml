@@ -27,7 +27,7 @@ jobs:
             sudo pip install awsebcli --upgrade
       - run:
           name: Deploying
-          command: eb deploy Samplelogin-env --debug
+          command: eb deploy Samplelogin --debug
 
       # Download and cache dependencies
       - restore_cache:
