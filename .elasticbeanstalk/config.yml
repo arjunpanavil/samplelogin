@@ -1,9 +1,8 @@
 branch-defaults:
   master:
-    environment: Samplelogin-env
+    environment: Samplelogin
 global:
-  application_name: Samplelogin-env
-  default_ec2_keyname: XXXXXX
+  application_name: samplelogin
   default_platform: 64bit Amazon Linux 2018.03 v4.9.2 running Node.js
   default_region: ap-south-1
   sc: git
