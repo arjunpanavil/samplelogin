@@ -19,6 +19,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install awscli
+          command: |
+            sudo pip install awsebcli --upgrade
+      - run:
           name: Deploying
           command: eb deploy Samplelogin-env
 
