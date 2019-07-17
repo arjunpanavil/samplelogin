@@ -1,5 +1,5 @@
 # Sample Login
-This is a sample dynamic login page which works on NodeJS
+This is a dynamic login page which works on NodeJS 
 
 #### DEPLOYMENT  ####
 
